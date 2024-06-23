@@ -101,7 +101,7 @@ class Strategy(BaseStrategy):
 config = RuntimeConfig(
     mode=RUNTIME_MODE,
     datasource_topics=[],
-    candle_topics=["candles-1d-BTC/USDT-bybit"],
+    candle_topics=["candles-1H-XAU/USD-tradingview"],
     active_order_interval=1,
     initial_capital=10000.0,
     exchange_keys="./credentials.json",
